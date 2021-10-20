@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "nec_cmd.py power_status",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/command/nec_cmd.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--ip",
+                "10.70.7.12",
+                "power_status"
+            ]
+        },
+        {
+            "name": "nec_cmd.py serial",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/command/nec_cmd.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--ip",
+                "10.70.7.12",
+                "serial"
+            ]
+        },
+        {
+            "name": "nec_cmd.py power_on",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/command/nec_cmd.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--ip",
+                "10.30.100.12",
+                "power_on"
+            ]
+        },
+        {
+            "name": "nec_cmd.py power_off",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/command/nec_cmd.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--ip",
+                "10.30.100.12",
+                "power_off"
+            ]
+        },
+        {
+            "name": "nec_cmd.py version_data_request",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/command/nec_cmd.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--ip",
+                "10.30.100.12",
+                "version_data_request"
+            ]
+        },
+        {
+            "name": "nec_cmd.py input_switch_change",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/command/nec_cmd.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--ip",
+                "10.30.100.12",
+                "input_switch_change",
+                "--channel", "2"
+            ]
+        },
+        {
+            "name": "nec_cmd.py input_status_request",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/command/nec_cmd.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--ip",
+                "10.30.100.12",
+                "input_status_request"
+            ]
+        },
+        {
+            "name": "nec_cmd.py lamp_mode",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/command/nec_cmd.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--ip",
+                "10.30.100.12",
+                "lamp_mode"
+            ]
+        }
+    ]
+}
